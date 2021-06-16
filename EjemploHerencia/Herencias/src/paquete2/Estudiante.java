@@ -3,34 +3,36 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencias1;
+package paquete2;
+
 
 /**
  *
  * @author reroes
  */
 public class Estudiante extends Persona{
-    
     private double matricula;
     
-    public Estudiante(String n, String a, int e, double mat){
+    public Estudiante(String n, String a, int e, double matricula){
         super(n, a, e);
-        setMatricula(mat);
+        this.matricula = matricula;
     }
     
-    public void setMatricula(double mat){
-        matricula = mat;
+    @Override
+    public void setNombre(String n){
+        nombre = n.toUpperCase();    
+    }
+    
+    public void setMatricula(double matricula){
+        this.matricula = matricula;
     }
     
     public double getMatricula(){
         return matricula;
     }
-    
+
     @Override
     public String toString(){
-    
-        return String.format("%s - %f", super.toString(), getMatricula());
+        return String.format("%s - %f", super.toString(), matricula);
     }
-    
-   
 }

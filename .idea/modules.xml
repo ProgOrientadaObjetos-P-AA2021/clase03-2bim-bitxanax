@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjemploHerencia/EjemploHerencia.iml" filepath="$PROJECT_DIR$/EjemploHerencia/EjemploHerencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjemploPolimorfismo/EjemploPolimorfismo.iml" filepath="$PROJECT_DIR$/EjemploPolimorfismo/EjemploPolimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/clase03-2bim-bitxanax.iml" filepath="$PROJECT_DIR$/.idea/clase03-2bim-bitxanax.iml" />
+    </modules>
+  </component>
+</project>

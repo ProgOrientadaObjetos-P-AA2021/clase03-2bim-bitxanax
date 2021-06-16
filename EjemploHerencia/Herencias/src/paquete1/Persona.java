@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencias1;
+package paquete1;
 
 /**
  *
@@ -16,9 +16,9 @@ public class Persona {
     private int edad;
     
     public Persona(String n, String a,  int e){
-        setNombre(n);
-        setApellido(a);
-        setEdad(e);
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
     }
     
     public void setNombre(String n){
@@ -48,7 +48,7 @@ public class Persona {
     @Override
     public String toString(){
         return String.format("Nombre: %s - Apellido %s - Edad %d", 
-                getNombre(), getApellido(), getEdad());
+                nombre,apellido, edad);
     }
     
     

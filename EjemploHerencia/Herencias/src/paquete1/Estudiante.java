@@ -3,24 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package herencias2;
-
+package paquete1;
 
 /**
  *
  * @author reroes
  */
 public class Estudiante extends Persona{
+    
     private double matricula;
     
     public Estudiante(String n, String a, int e, double mat){
         super(n, a, e);
-        setMatricula(mat);
-    }
-    
-    @Override
-    public void setNombre(String n){
-        nombre = n.toUpperCase();    
+        this.matricula = matricula;
     }
     
     public void setMatricula(double mat){
@@ -31,16 +26,11 @@ public class Estudiante extends Persona{
         return matricula;
     }
     
-    /* @Override
-    public String toString(){
-    
-        return String.format("%s - %f", super.toString(), getMatricula());
-    }
-    */
-    
     @Override
     public String toString(){
     
         return String.format("%s - %f", super.toString(), getMatricula());
     }
+    
+   
 }
