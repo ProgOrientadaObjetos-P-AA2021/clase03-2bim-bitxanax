@@ -31,6 +31,6 @@ public class Docente extends Persona{
 
     public String toString(){
 
-        return String.format("%s - %f", super.toString(), sueldo);
+        return String.format("%s - %.2f", super.toString(), sueldo);
     }
 }

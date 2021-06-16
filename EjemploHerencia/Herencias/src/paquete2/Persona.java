@@ -17,9 +17,9 @@ public class Persona {
     protected int edad;
     
     public Persona(String n, String a,  int e){
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.edad = edad;
+        this.nombre = n;
+        this.apellido = a;
+        this.edad = e;
     }
     
     public void setNombre(String n){
@@ -49,7 +49,7 @@ public class Persona {
     @Override
     public String toString(){
         return String.format("Nombre: %s - Apellido: %s - Edad: %d",
-                getNombre(), getApellido(), getEdad());
+                nombre, apellido, edad);
     }
     
     

@@ -45,7 +45,7 @@ public class ReporteDocente extends Reporte {
         String cadena = String.format("%sReporte de Docentes: \n",
                 super.toString());
         for (int i = 0; i < lista.size(); i++) {
-            cadena = String.format("%s - %s \n", cadena,
+            cadena = String.format("%s %s \n", cadena,
                     lista.get(i).toString());
         }
         cadena = String.format("%sPromedio de sueldos: %.2f", cadena, promedioSueldos);
