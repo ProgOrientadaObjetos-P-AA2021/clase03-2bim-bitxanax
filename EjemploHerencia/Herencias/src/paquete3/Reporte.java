@@ -7,7 +7,7 @@ package paquete3;
 
 /**
  *
- * @author Usuario
+ * @author bitxanax
  */
 public class Reporte {
     protected String codigo;

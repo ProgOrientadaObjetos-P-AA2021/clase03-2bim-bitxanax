@@ -7,7 +7,7 @@ package paquete2;
 
 /**
  *
- * @author 0zzda
+ * @author bitxanax
  */
 public class Policia extends Persona{
     private String rango;
